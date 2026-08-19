@@ -1,0 +1,637 @@
+[07:53:43] [Main] Scheduler starting up
+[07:53:43] [Scheduler] Initialised with 4 worker thread(s)
+[07:53:43] [Scheduler] Added task #1  priority=5
+[07:53:43] [Worker] Executing task #1  priority=5
+[07:53:43] [Demo] Starting demo task #1  (800 ms)
+[07:53:43] [Worker] Executing task #2  priority=9
+[07:53:43] [Demo] Starting demo task #2  (1200 ms)
+[07:53:43] [Scheduler] Added task #2  priority=9
+[07:53:43] [Scheduler] Added task #3  priority=3
+[07:53:43] [Scheduler] Added task #4  priority=7
+[07:53:43] [Scheduler] Added task #5  priority=1
+[07:53:43] [Scheduler] Added task #6  priority=8
+[07:53:43] [Scheduler] Added task #7  priority=6
+[07:53:43] [Scheduler] Added task #8  priority=2
+[07:53:43] [Main] Queued 8 demo tasks
+[07:53:43] [Worker] Executing task #4  priority=7
+[07:53:43] [Demo] Starting demo task #4  (600 ms)
+[07:53:43] [UI] Thread started
+[07:53:43] [Worker] Executing task #3  priority=3
+[07:53:43] [Demo] Starting demo task #3  (2000 ms)
+[07:53:44] [Demo] Finished demo task #4
+[07:53:44] [Worker] Completed task #4  exec=606.25 ms
+[07:53:44] [Worker] Executing task #6  priority=8
+[07:53:44] [Demo] Starting demo task #6  (900 ms)
+[07:53:44] [Demo] Finished demo task #1
+[07:53:44] [Worker] Completed task #1  exec=804.35 ms
+[07:53:44] [Worker] Executing task #7  priority=6
+[07:53:44] [Demo] Starting demo task #7  (1100 ms)
+[07:53:44] [Demo] Finished demo task #2
+[07:53:44] [Worker] Completed task #2  exec=1205.30 ms
+[07:53:44] [Worker] Executing task #8  priority=2
+[07:53:44] [Demo] Starting demo task #8  (700 ms)
+[07:53:45] [Demo] Finished demo task #6
+[07:53:45] [Worker] Completed task #6  exec=902.40 ms
+[07:53:45] [Worker] Executing task #5  priority=1
+[07:53:45] [Demo] Starting demo task #5  (1500 ms)
+[07:53:45] [Demo] Finished demo task #7
+[07:53:45] [Worker] Completed task #7  exec=1102.22 ms
+[07:53:45] [Demo] Finished demo task #8
+[07:53:45] [Worker] Completed task #8  exec=703.49 ms
+[07:53:45] [Demo] Finished demo task #3
+[07:53:45] [Worker] Completed task #3  exec=2012.03 ms
+[07:53:46] [Demo] Finished demo task #5
+[07:53:46] [Worker] Completed task #5  exec=1502.63 ms
+[07:53:52] [Scheduler] Added task #9  priority=3
+[07:53:52] [UI] User added task #9  priority=3  work=1426 ms
+[07:53:52] [Worker] Executing task #9  priority=3
+[07:53:52] [Task] sample_task #1 sleeping 1426 ms
+[07:53:53] [Worker] Completed task #9  exec=1470.93 ms
+[07:53:55] [Scheduler] Added task #10  priority=3
+[07:53:55] [UI] User added task #10  priority=3  work=2186 ms
+[07:53:55] [Worker] Executing task #10  priority=3
+[07:53:55] [Task] sample_task #2 sleeping 2186 ms
+[07:53:57] [Worker] Completed task #10  exec=2189.65 ms
+[07:54:07] [Scheduler] Added task #11  priority=9
+[07:54:07] [UI] User added task #11  priority=9  work=1596 ms
+[07:54:07] [Worker] Executing task #11  priority=9
+[07:54:07] [Task] sample_task #3 sleeping 1596 ms
+[07:54:08] [Worker] Completed task #11  exec=1600.81 ms
+[07:54:09] [UI] Thread exiting
+[07:54:09] [Main] UI thread joined, initiating shutdown
+[07:54:09] [Scheduler] Shutdown initiated
+[07:54:09] [Worker] Thread exiting (tid=140043893810752)
+[07:54:09] [Worker] Thread exiting (tid=140043885418048)
+[07:54:09] [Worker] Thread exiting (tid=140043910596160)
+[07:54:09] [Worker] Thread exiting (tid=140043902203456)
+[07:54:09] [Scheduler] Shutdown complete. Completed=11
+[07:54:09] [Main] Exiting cleanly
+[07:56:47] [Main] Scheduler starting up
+[07:56:47] [Scheduler] Initialised with 4 worker thread(s)
+[07:56:47] [Scheduler] Added task #1  priority=5
+[07:56:47] [Scheduler] Added task #2  priority=9
+[07:56:47] [Worker] Executing task #2  priority=9
+[07:56:47] [Demo] Starting demo task #2  (1200 ms)
+[07:56:47] [Scheduler] Added task #3  priority=3
+[07:56:47] [Worker] Executing task #3  priority=3
+[07:56:47] [Demo] Starting demo task #3  (2000 ms)
+[07:56:47] [Scheduler] Added task #4  priority=7
+[07:56:47] [Scheduler] Added task #5  priority=1
+[07:56:47] [Scheduler] Added task #6  priority=8
+[07:56:47] [Scheduler] Added task #7  priority=6
+[07:56:47] [Scheduler] Added task #8  priority=2
+[07:56:47] [Main] Queued 8 demo tasks
+[07:56:47] [Worker] Executing task #1  priority=5
+[07:56:47] [Demo] Starting demo task #1  (800 ms)
+[07:56:47] [UI] Thread started
+[07:56:47] [Worker] Executing task #4  priority=7
+[07:56:47] [Demo] Starting demo task #4  (600 ms)
+[07:56:48] [Demo] Finished demo task #4
+[07:56:48] [Worker] Completed task #4  exec=610.98 ms
+[07:56:48] [Worker] Executing task #6  priority=8
+[07:56:48] [Demo] Starting demo task #6  (900 ms)
+[07:56:48] [Demo] Finished demo task #1
+[07:56:48] [Worker] Completed task #1  exec=811.88 ms
+[07:56:48] [Worker] Executing task #7  priority=6
+[07:56:48] [Demo] Starting demo task #7  (1100 ms)
+[07:56:49] [Demo] Finished demo task #2
+[07:56:49] [Worker] Completed task #2  exec=1203.52 ms
+[07:56:49] [Worker] Executing task #8  priority=2
+[07:56:49] [Demo] Starting demo task #8  (700 ms)
+[07:56:49] [Demo] Finished demo task #6
+[07:56:49] [Worker] Completed task #6  exec=904.76 ms
+[07:56:49] [Worker] Executing task #5  priority=1
+[07:56:49] [Demo] Starting demo task #5  (1500 ms)
+[07:56:49] [Demo] Finished demo task #8
+[07:56:49] [Worker] Completed task #8  exec=704.12 ms
+[07:56:49] [Demo] Finished demo task #7
+[07:56:49] [Worker] Completed task #7  exec=1102.44 ms
+[07:56:49] [Demo] Finished demo task #3
+[07:56:49] [Worker] Completed task #3  exec=2004.87 ms
+[07:56:50] [Demo] Finished demo task #5
+[07:56:50] [Worker] Completed task #5  exec=1503.22 ms
+[07:56:52] [Scheduler] Added task #9  priority=8
+[07:56:52] [UI] User added task #9  priority=8  work=1944 ms
+[07:56:52] [Worker] Executing task #9  priority=8
+[07:56:52] [Task] sample_task #1 sleeping 1944 ms
+[07:56:54] [Worker] Completed task #9  exec=1947.42 ms
+[07:56:54] [Scheduler] Added task #10  priority=7
+[07:56:54] [UI] User added task #10  priority=7  work=710 ms
+[07:56:54] [Worker] Executing task #10  priority=7
+[07:56:54] [Task] sample_task #2 sleeping 710 ms
+[07:56:55] [Worker] Completed task #10  exec=714.31 ms
+[07:57:03] [Scheduler] Added task #11  priority=3
+[07:57:03] [UI] User added task #11  priority=3  work=2110 ms
+[07:57:03] [Worker] Executing task #11  priority=3
+[07:57:03] [Task] sample_task #3 sleeping 2110 ms
+[07:57:03] [Scheduler] Added task #12  priority=9
+[07:57:03] [UI] User added task #12  priority=9  work=1607 ms
+[07:57:03] [Worker] Executing task #12  priority=9
+[07:57:03] [Task] sample_task #4 sleeping 1607 ms
+[07:57:04] [Scheduler] Added task #13  priority=3
+[07:57:04] [UI] User added task #13  priority=3  work=559 ms
+[07:57:04] [Worker] Executing task #13  priority=3
+[07:57:04] [Task] sample_task #5 sleeping 559 ms
+[07:57:04] [Scheduler] Added task #14  priority=3
+[07:57:04] [UI] User added task #14  priority=3  work=2839 ms
+[07:57:04] [Worker] Executing task #14  priority=3
+[07:57:04] [Task] sample_task #6 sleeping 2839 ms
+[07:57:04] [Worker] Completed task #13  exec=564.31 ms
+[07:57:05] [Worker] Completed task #12  exec=1610.64 ms
+[07:57:05] [Worker] Completed task #11  exec=2113.24 ms
+[07:57:07] [Worker] Completed task #14  exec=2842.49 ms
+[07:57:21] [Scheduler] Added task #15  priority=6
+[07:57:21] [Worker] Executing task #15  priority=6
+[07:57:21] [Task] sample_task #7 sleeping 2968 ms
+[07:57:21] [UI] User added task #15  priority=6  work=2968 ms
+[07:57:24] [Worker] Completed task #15  exec=2970.61 ms
+[07:57:24] [Scheduler] Added task #16  priority=9
+[07:57:24] [UI] User added task #16  priority=9  work=2730 ms
+[07:57:24] [Worker] Executing task #16  priority=9
+[07:57:24] [Task] sample_task #8 sleeping 2730 ms
+[07:57:26] [Scheduler] Added task #17  priority=3
+[07:57:26] [UI] User added task #17  priority=3  work=2449 ms
+[07:57:26] [Worker] Executing task #17  priority=3
+[07:57:26] [Task] sample_task #9 sleeping 2449 ms
+[07:57:27] [Worker] Completed task #16  exec=2733.51 ms
+[07:57:28] [Worker] Completed task #17  exec=2453.81 ms
+[07:57:29] [Scheduler] Added task #18  priority=9
+[07:57:29] [UI] User added task #18  priority=9  work=585 ms
+[07:57:29] [Worker] Executing task #18  priority=9
+[07:57:29] [Task] sample_task #10 sleeping 585 ms
+[07:57:30] [Worker] Completed task #18  exec=588.43 ms
+[07:57:37] [Scheduler] Added task #19  priority=1
+[07:57:37] [UI] User added task #19  priority=1  work=1389 ms
+[07:57:37] [Worker] Executing task #19  priority=1
+[07:57:37] [Task] sample_task #11 sleeping 1389 ms
+[07:57:38] [Worker] Completed task #19  exec=1392.47 ms
+[07:57:50] [UI] Thread exiting
+[07:57:50] [Main] UI thread joined, initiating shutdown
+[07:57:50] [Scheduler] Shutdown initiated
+[07:57:50] [Worker] Thread exiting (tid=140470902859328)
+[07:57:50] [Worker] Thread exiting (tid=140470886073920)
+[07:57:50] [Worker] Thread exiting (tid=140470911252032)
+[07:57:50] [Worker] Thread exiting (tid=140470894466624)
+[07:57:50] [Scheduler] Shutdown complete. Completed=19
+[07:57:50] [Main] Exiting cleanly
+[07:59:17] [Main] Scheduler starting up
+[07:59:17] [Scheduler] Initialised with 4 worker thread(s)
+[07:59:17] [Scheduler] Added task #1  priority=5
+[07:59:17] [Scheduler] Added task #2  priority=9
+[07:59:17] [Scheduler] Added task #3  priority=3
+[07:59:17] [Scheduler] Added task #4  priority=7
+[07:59:17] [Scheduler] Added task #5  priority=1
+[07:59:17] [Scheduler] Added task #6  priority=8
+[07:59:17] [Worker] Executing task #2  priority=9
+[07:59:17] [Demo] Starting demo task #2  (1200 ms)
+[07:59:17] [Worker] Executing task #1  priority=5
+[07:59:17] [Demo] Starting demo task #1  (800 ms)
+[07:59:17] [Scheduler] Added task #7  priority=6
+[07:59:17] [Scheduler] Added task #8  priority=2
+[07:59:17] [Main] Queued 8 demo tasks
+[07:59:17] [Worker] Executing task #4  priority=7
+[07:59:17] [Demo] Starting demo task #4  (600 ms)
+[07:59:17] [UI] Thread started
+[07:59:17] [Worker] Executing task #3  priority=3
+[07:59:17] [Demo] Starting demo task #3  (2000 ms)
+[07:59:17] [Demo] Finished demo task #4
+[07:59:17] [Worker] Completed task #4  exec=610.85 ms
+[07:59:17] [Worker] Executing task #6  priority=8
+[07:59:17] [Demo] Starting demo task #6  (900 ms)
+[07:59:17] [Demo] Finished demo task #1
+[07:59:17] [Worker] Completed task #1  exec=808.66 ms
+[07:59:17] [Worker] Executing task #7  priority=6
+[07:59:17] [Demo] Starting demo task #7  (1100 ms)
+[07:59:18] [Demo] Finished demo task #2
+[07:59:18] [Worker] Completed task #2  exec=1206.64 ms
+[07:59:18] [Worker] Executing task #8  priority=2
+[07:59:18] [Demo] Starting demo task #8  (700 ms)
+[07:59:18] [Demo] Finished demo task #6
+[07:59:18] [Worker] Completed task #6  exec=904.08 ms
+[07:59:18] [Worker] Executing task #5  priority=1
+[07:59:18] [Demo] Starting demo task #5  (1500 ms)
+[07:59:19] [Demo] Finished demo task #8
+[07:59:19] [Worker] Completed task #8  exec=702.91 ms
+[07:59:19] [Demo] Finished demo task #7
+[07:59:19] [Worker] Completed task #7  exec=1103.03 ms
+[07:59:19] [Demo] Finished demo task #3
+[07:59:19] [Worker] Completed task #3  exec=2014.24 ms
+[07:59:20] [Demo] Finished demo task #5
+[07:59:20] [Worker] Completed task #5  exec=1504.20 ms
+[07:59:23] [Scheduler] Added task #9  priority=6
+[07:59:23] [UI] User added task #9  priority=6  work=2239 ms
+[07:59:23] [Worker] Executing task #9  priority=6
+[07:59:23] [Task] sample_task #1 sleeping 2239 ms
+[07:59:24] [Scheduler] Added task #10  priority=9
+[07:59:24] [UI] User added task #10  priority=9  work=855 ms
+[07:59:24] [Worker] Executing task #10  priority=9
+[07:59:24] [Task] sample_task #2 sleeping 855 ms
+[07:59:25] [Scheduler] Added task #11  priority=1
+[07:59:25] [UI] User added task #11  priority=1  work=724 ms
+[07:59:25] [Worker] Executing task #11  priority=1
+[07:59:25] [Task] sample_task #3 sleeping 724 ms
+[07:59:25] [Worker] Completed task #10  exec=861.12 ms
+[07:59:25] [Worker] Completed task #9  exec=2242.97 ms
+[07:59:25] [Worker] Completed task #11  exec=728.21 ms
+[07:59:32] [UI] Thread exiting
+[07:59:32] [Main] UI thread joined, initiating shutdown
+[07:59:32] [Scheduler] Shutdown initiated
+[07:59:32] [Worker] Thread exiting (tid=140081404999232)
+[07:59:32] [Worker] Thread exiting (tid=140081396606528)
+[07:59:32] [Worker] Thread exiting (tid=140081413391936)
+[07:59:32] [Worker] Thread exiting (tid=140081421784640)
+[07:59:32] [Scheduler] Shutdown complete. Completed=11
+[07:59:32] [Main] Exiting cleanly
+[06:09:23] [Main] Scheduler starting up
+[06:09:23] [Scheduler] Initialised with 4 worker thread(s)
+[06:09:23] [Scheduler] Added task #1  priority=5
+[06:09:23] [Worker] Executing task #1  priority=5
+[06:09:23] [Demo] Starting demo task #1  (800 ms)
+[06:09:23] [Worker] Executing task #2  priority=9
+[06:09:23] [Demo] Starting demo task #2  (1200 ms)
+[06:09:23] [Scheduler] Added task #2  priority=9
+[06:09:23] [Scheduler] Added task #3  priority=3
+[06:09:23] [Worker] Executing task #3  priority=3
+[06:09:23] [Demo] Starting demo task #3  (2000 ms)
+[06:09:23] [Worker] Executing task #4  priority=7
+[06:09:23] [Demo] Starting demo task #4  (600 ms)
+[06:09:23] [Scheduler] Added task #4  priority=7
+[06:09:23] [Scheduler] Added task #5  priority=1
+[06:09:23] [Scheduler] Added task #6  priority=8
+[06:09:23] [Scheduler] Added task #7  priority=6
+[06:09:23] [Scheduler] Added task #8  priority=2
+[06:09:23] [Main] Queued 8 demo tasks
+[06:09:23] [UI] Thread started
+[06:09:23] [Demo] Finished demo task #4
+[06:09:23] [Worker] Completed task #4  exec=650.09 ms
+[06:09:23] [Worker] Executing task #6  priority=8
+[06:09:23] [Demo] Starting demo task #6  (900 ms)
+[06:09:23] [Demo] Finished demo task #1
+[06:09:23] [Worker] Completed task #1  exec=808.71 ms
+[06:09:23] [Worker] Executing task #7  priority=6
+[06:09:23] [Demo] Starting demo task #7  (1100 ms)
+[06:09:24] [Demo] Finished demo task #2
+[06:09:24] [Worker] Completed task #2  exec=1228.65 ms
+[06:09:24] [Worker] Executing task #8  priority=2
+[06:09:24] [Demo] Starting demo task #8  (700 ms)
+[06:09:24] [Demo] Finished demo task #6
+[06:09:24] [Worker] Completed task #6  exec=948.95 ms
+[06:09:24] [Worker] Executing task #5  priority=1
+[06:09:24] [Demo] Starting demo task #5  (1500 ms)
+[06:09:24] [Demo] Finished demo task #7
+[06:09:24] [Worker] Completed task #7  exec=1123.14 ms
+[06:09:24] [Demo] Finished demo task #8
+[06:09:24] [Worker] Completed task #8  exec=728.16 ms
+[06:09:25] [Demo] Finished demo task #3
+[06:09:25] [Worker] Completed task #3  exec=2005.85 ms
+[06:09:26] [Demo] Finished demo task #5
+[06:09:26] [Worker] Completed task #5  exec=1529.62 ms
+[06:09:26] [Scheduler] Added task #9  priority=5
+[06:09:26] [UI] User added task #9  priority=5  work=1481 ms
+[06:09:26] [Worker] Executing task #9  priority=5
+[06:09:26] [Task] sample_task #1 sleeping 1481 ms
+[06:09:28] [Worker] Completed task #9  exec=1482.20 ms
+[06:09:29] [Scheduler] Added task #10  priority=4
+[06:09:29] [UI] User added task #10  priority=4  work=1403 ms
+[06:09:29] [Worker] Executing task #10  priority=4
+[06:09:29] [Task] sample_task #2 sleeping 1403 ms
+[06:09:30] [Worker] Completed task #10  exec=1404.51 ms
+[06:09:33] [Scheduler] Added task #11  priority=10
+[06:09:33] [UI] User added task #11  priority=10  work=2591 ms
+[06:09:33] [Worker] Executing task #11  priority=10
+[06:09:33] [Task] sample_task #3 sleeping 2591 ms
+[06:09:36] [Worker] Completed task #11  exec=2621.81 ms
+[06:09:44] [Scheduler] Added task #12  priority=5
+[06:09:44] [UI] User added task #12  priority=5  work=1414 ms
+[06:09:44] [Worker] Executing task #12  priority=5
+[06:09:44] [Task] sample_task #4 sleeping 1414 ms
+[06:09:46] [Worker] Completed task #12  exec=1415.24 ms
+[06:09:57] [Scheduler] Added task #13  priority=9
+[06:09:57] [UI] User added task #13  priority=9  work=1952 ms
+[06:09:57] [Worker] Executing task #13  priority=9
+[06:09:57] [Task] sample_task #5 sleeping 1952 ms
+[06:09:59] [Worker] Completed task #13  exec=1953.57 ms
+[06:10:01] [Scheduler] Added task #14  priority=6
+[06:10:01] [UI] User added task #14  priority=6  work=2924 ms
+[06:10:01] [Worker] Executing task #14  priority=6
+[06:10:01] [Task] sample_task #6 sleeping 2924 ms
+[06:10:01] [Scheduler] Added task #15  priority=5
+[06:10:01] [UI] User added task #15  priority=5  work=1510 ms
+[06:10:01] [Worker] Executing task #15  priority=5
+[06:10:01] [Task] sample_task #7 sleeping 1510 ms
+[06:10:02] [Scheduler] Added task #16  priority=9
+[06:10:02] [UI] User added task #16  priority=9  work=1638 ms
+[06:10:02] [Worker] Executing task #16  priority=9
+[06:10:02] [Task] sample_task #8 sleeping 1638 ms
+[06:10:02] [Scheduler] Added task #17  priority=9
+[06:10:02] [UI] User added task #17  priority=9  work=1151 ms
+[06:10:02] [Worker] Executing task #17  priority=9
+[06:10:02] [Task] sample_task #9 sleeping 1151 ms
+[06:10:02] [Scheduler] Added task #18  priority=10
+[06:10:02] [UI] User added task #18  priority=10  work=2397 ms
+[06:10:02] [Scheduler] Added task #19  priority=5
+[06:10:02] [UI] User added task #19  priority=5  work=716 ms
+[06:10:02] [Scheduler] Added task #20  priority=4
+[06:10:02] [UI] User added task #20  priority=4  work=2376 ms
+[06:10:03] [Scheduler] Added task #21  priority=7
+[06:10:03] [UI] User added task #21  priority=7  work=590 ms
+[06:10:03] [Scheduler] Added task #22  priority=10
+[06:10:03] [UI] User added task #22  priority=10  work=733 ms
+[06:10:03] [Worker] Completed task #15  exec=1511.38 ms
+[06:10:03] [Worker] Executing task #18  priority=10
+[06:10:03] [Task] sample_task #10 sleeping 2397 ms
+[06:10:03] [Worker] Completed task #17  exec=1152.61 ms
+[06:10:03] [Worker] Executing task #22  priority=10
+[06:10:03] [Task] sample_task #14 sleeping 733 ms
+[06:10:03] [Worker] Completed task #16  exec=1639.20 ms
+[06:10:03] [Worker] Executing task #21  priority=7
+[06:10:03] [Task] sample_task #13 sleeping 590 ms
+[06:10:04] [Worker] Completed task #22  exec=735.46 ms
+[06:10:04] [Worker] Executing task #19  priority=5
+[06:10:04] [Task] sample_task #11 sleeping 716 ms
+[06:10:04] [Worker] Completed task #14  exec=2925.17 ms
+[06:10:04] [Worker] Executing task #20  priority=4
+[06:10:04] [Task] sample_task #12 sleeping 2376 ms
+[06:10:04] [Worker] Completed task #21  exec=622.23 ms
+[06:10:05] [Worker] Completed task #19  exec=716.55 ms
+[06:10:05] [Worker] Completed task #18  exec=2399.15 ms
+[06:10:06] [Worker] Completed task #20  exec=2377.14 ms
+[06:10:07] [Scheduler] Added task #23  priority=6
+[06:10:07] [UI] User added task #23  priority=6  work=2574 ms
+[06:10:07] [Worker] Executing task #23  priority=6
+[06:10:07] [Task] sample_task #15 sleeping 2574 ms
+[06:10:07] [Scheduler] Added task #24  priority=8
+[06:10:07] [UI] User added task #24  priority=8  work=557 ms
+[06:10:07] [Worker] Executing task #24  priority=8
+[06:10:07] [Task] sample_task #16 sleeping 557 ms
+[06:10:07] [Scheduler] Added task #25  priority=1
+[06:10:07] [UI] User added task #25  priority=1  work=2502 ms
+[06:10:07] [Worker] Executing task #25  priority=1
+[06:10:07] [Task] sample_task #17 sleeping 2502 ms
+[06:10:07] [Scheduler] Added task #26  priority=4
+[06:10:07] [UI] User added task #26  priority=4  work=1433 ms
+[06:10:07] [Worker] Executing task #26  priority=4
+[06:10:07] [Task] sample_task #18 sleeping 1433 ms
+[06:10:08] [Scheduler] Added task #27  priority=10
+[06:10:08] [UI] User added task #27  priority=10  work=699 ms
+[06:10:08] [Worker] Completed task #24  exec=558.06 ms
+[06:10:08] [Worker] Executing task #27  priority=10
+[06:10:08] [Task] sample_task #19 sleeping 699 ms
+[06:10:08] [Scheduler] Added task #28  priority=4
+[06:10:08] [UI] User added task #28  priority=4  work=2397 ms
+[06:10:08] [Scheduler] Added task #29  priority=4
+[06:10:08] [UI] User added task #29  priority=4  work=2897 ms
+[06:10:08] [Scheduler] Added task #30  priority=8
+[06:10:08] [UI] User added task #30  priority=8  work=1200 ms
+[06:10:08] [Scheduler] Added task #31  priority=9
+[06:10:08] [UI] User added task #31  priority=9  work=997 ms
+[06:10:08] [Worker] Completed task #27  exec=699.56 ms
+[06:10:08] [Worker] Executing task #31  priority=9
+[06:10:08] [Task] sample_task #23 sleeping 997 ms
+[06:10:09] [Scheduler] Added task #32  priority=2
+[06:10:09] [UI] User added task #32  priority=2  work=2407 ms
+[06:10:09] [Worker] Completed task #26  exec=1434.35 ms
+[06:10:09] [Worker] Executing task #30  priority=8
+[06:10:09] [Task] sample_task #22 sleeping 1200 ms
+[06:10:09] [Scheduler] Added task #33  priority=6
+[06:10:09] [UI] User added task #33  priority=6  work=1558 ms
+[06:10:09] [Scheduler] Added task #34  priority=7
+[06:10:09] [UI] User added task #34  priority=7  work=2010 ms
+[06:10:09] [Scheduler] Added task #35  priority=9
+[06:10:09] [UI] User added task #35  priority=9  work=1119 ms
+[06:10:09] [Worker] Completed task #31  exec=997.63 ms
+[06:10:09] [Worker] Executing task #35  priority=9
+[06:10:09] [Task] sample_task #27 sleeping 1119 ms
+[06:10:09] [Scheduler] Added task #36  priority=2
+[06:10:09] [UI] User added task #36  priority=2  work=2522 ms
+[06:10:09] [Worker] Completed task #23  exec=2575.16 ms
+[06:10:09] [Worker] Executing task #34  priority=7
+[06:10:09] [Task] sample_task #26 sleeping 2010 ms
+[06:10:10] [Scheduler] Added task #37  priority=8
+[06:10:10] [UI] User added task #37  priority=8  work=2354 ms
+[06:10:10] [Worker] Completed task #25  exec=2503.57 ms
+[06:10:10] [Worker] Executing task #37  priority=8
+[06:10:10] [Task] sample_task #29 sleeping 2354 ms
+[06:10:10] [Scheduler] Added task #38  priority=1
+[06:10:10] [UI] User added task #38  priority=1  work=1890 ms
+[06:10:10] [Worker] Completed task #30  exec=1200.61 ms
+[06:10:10] [Worker] Executing task #33  priority=6
+[06:10:10] [Task] sample_task #25 sleeping 1558 ms
+[06:10:10] [Scheduler] Added task #39  priority=8
+[06:10:10] [UI] User added task #39  priority=8  work=1052 ms
+[06:10:10] [Scheduler] Added task #40  priority=7
+[06:10:10] [UI] User added task #40  priority=7  work=2688 ms
+[06:10:10] [Worker] Completed task #35  exec=1119.48 ms
+[06:10:10] [Worker] Executing task #39  priority=8
+[06:10:10] [Task] sample_task #31 sleeping 1052 ms
+[06:10:11] [Scheduler] Added task #41  priority=2
+[06:10:11] [UI] User added task #41  priority=2  work=1759 ms
+[06:10:11] [Scheduler] Added task #42  priority=1
+[06:10:11] [UI] User added task #42  priority=1  work=1000 ms
+[06:10:11] [Scheduler] Added task #43  priority=10
+[06:10:11] [UI] User added task #43  priority=10  work=1820 ms
+[06:10:11] [Scheduler] Added task #44  priority=10
+[06:10:11] [UI] User added task #44  priority=10  work=2665 ms
+[06:10:11] [Scheduler] Added task #45  priority=9
+[06:10:11] [UI] User added task #45  priority=9  work=2423 ms
+[06:10:11] [Worker] Completed task #34  exec=2010.48 ms
+[06:10:11] [Worker] Executing task #43  priority=10
+[06:10:11] [Task] sample_task #35 sleeping 1820 ms
+[06:10:11] [Worker] Completed task #39  exec=1052.88 ms
+[06:10:11] [Worker] Executing task #44  priority=10
+[06:10:11] [Task] sample_task #36 sleeping 2665 ms
+[06:10:12] [Worker] Completed task #33  exec=1562.46 ms
+[06:10:12] [Worker] Executing task #45  priority=9
+[06:10:12] [Task] sample_task #37 sleeping 2423 ms
+[06:10:12] [Scheduler] Added task #46  priority=3
+[06:10:12] [UI] User added task #46  priority=3  work=2828 ms
+[06:10:12] [Scheduler] Added task #47  priority=7
+[06:10:12] [UI] User added task #47  priority=7  work=1556 ms
+[06:10:12] [Scheduler] Added task #48  priority=8
+[06:10:12] [UI] User added task #48  priority=8  work=1773 ms
+[06:10:12] [Worker] Completed task #37  exec=2354.47 ms
+[06:10:12] [Worker] Executing task #48  priority=8
+[06:10:12] [Task] sample_task #40 sleeping 1773 ms
+[06:10:12] [Scheduler] Added task #49  priority=6
+[06:10:12] [UI] User added task #49  priority=6  work=2393 ms
+[06:10:13] [Scheduler] Added task #50  priority=3
+[06:10:13] [UI] User added task #50  priority=3  work=1593 ms
+[06:10:13] [Scheduler] Added task #51  priority=8
+[06:10:13] [UI] User added task #51  priority=8  work=1874 ms
+[06:10:13] [Scheduler] Added task #52  priority=1
+[06:10:13] [UI] User added task #52  priority=1  work=1426 ms
+[06:10:13] [Worker] Completed task #43  exec=1821.14 ms
+[06:10:13] [Worker] Executing task #51  priority=8
+[06:10:13] [Task] sample_task #43 sleeping 1874 ms
+[06:10:13] [Scheduler] Added task #53  priority=7
+[06:10:13] [UI] User added task #53  priority=7  work=1074 ms
+[06:10:13] [Scheduler] Added task #54  priority=10
+[06:10:13] [UI] User added task #54  priority=10  work=2861 ms
+[06:10:14] [Scheduler] Added task #55  priority=2
+[06:10:14] [UI] User added task #55  priority=2  work=616 ms
+[06:10:14] [Worker] Completed task #48  exec=1773.74 ms
+[06:10:14] [Worker] Executing task #54  priority=10
+[06:10:14] [Task] sample_task #46 sleeping 2861 ms
+[06:10:14] [Scheduler] Added task #56  priority=8
+[06:10:14] [UI] User added task #56  priority=8  work=1885 ms
+[06:10:14] [Worker] Completed task #45  exec=2423.63 ms
+[06:10:14] [Worker] Executing task #56  priority=8
+[06:10:14] [Task] sample_task #48 sleeping 1885 ms
+[06:10:14] [Scheduler] Added task #57  priority=8
+[06:10:14] [UI] User added task #57  priority=8  work=874 ms
+[06:10:14] [Worker] Completed task #44  exec=2665.77 ms
+[06:10:14] [Worker] Executing task #57  priority=8
+[06:10:14] [Task] sample_task #49 sleeping 874 ms
+[06:10:14] [Scheduler] Added task #58  priority=7
+[06:10:14] [UI] User added task #58  priority=7  work=2390 ms
+[06:10:15] [Scheduler] Added task #59  priority=6
+[06:10:15] [UI] User added task #59  priority=6  work=2487 ms
+[06:10:15] [Scheduler] Added task #60  priority=3
+[06:10:15] [UI] User added task #60  priority=3  work=1115 ms
+[06:10:15] [Scheduler] Added task #61  priority=4
+[06:10:15] [UI] User added task #61  priority=4  work=2625 ms
+[06:10:15] [Worker] Completed task #57  exec=874.60 ms
+[06:10:15] [Worker] Executing task #40  priority=7
+[06:10:15] [Task] sample_task #32 sleeping 2688 ms
+[06:10:15] [Scheduler] Added task #62  priority=5
+[06:10:15] [UI] User added task #62  priority=5  work=886 ms
+[06:10:15] [Worker] Completed task #51  exec=1875.69 ms
+[06:10:15] [Worker] Executing task #47  priority=7
+[06:10:15] [Task] sample_task #39 sleeping 1556 ms
+[06:10:15] [Scheduler] Added task #63  priority=3
+[06:10:15] [UI] User added task #63  priority=3  work=1531 ms
+[06:10:15] [Scheduler] Added task #64  priority=5
+[06:10:15] [UI] User added task #64  priority=5  work=1001 ms
+[06:10:16] [Scheduler] Added task #65  priority=7
+[06:10:16] [UI] User added task #65  priority=7  work=2647 ms
+[06:10:16] [Worker] Completed task #56  exec=1886.11 ms
+[06:10:16] [Worker] Executing task #53  priority=7
+[06:10:16] [Task] sample_task #45 sleeping 1074 ms
+[06:10:16] [Scheduler] Added task #66  priority=2
+[06:10:16] [UI] User added task #66  priority=2  work=2289 ms
+[06:10:16] [Scheduler] Added task #67  priority=6
+[06:10:16] [UI] User added task #67  priority=6  work=1766 ms
+[06:10:17] [Worker] Completed task #47  exec=1557.12 ms
+[06:10:17] [Worker] Executing task #58  priority=7
+[06:10:17] [Task] sample_task #50 sleeping 2390 ms
+[06:10:17] [Worker] Completed task #54  exec=2861.65 ms
+[06:10:17] [Worker] Executing task #65  priority=7
+[06:10:17] [Task] sample_task #57 sleeping 2647 ms
+[06:10:17] [Worker] Completed task #53  exec=1074.71 ms
+[06:10:17] [Worker] Executing task #49  priority=6
+[06:10:17] [Task] sample_task #41 sleeping 2393 ms
+[06:10:18] [Worker] Completed task #40  exec=2701.36 ms
+[06:10:18] [Worker] Executing task #59  priority=6
+[06:10:18] [Task] sample_task #51 sleeping 2487 ms
+[06:10:19] [Worker] Completed task #58  exec=2390.62 ms
+[06:10:19] [Worker] Executing task #67  priority=6
+[06:10:19] [Task] sample_task #59 sleeping 1766 ms
+[06:10:19] [Worker] Completed task #49  exec=2393.62 ms
+[06:10:19] [Worker] Executing task #62  priority=5
+[06:10:19] [Task] sample_task #54 sleeping 886 ms
+[06:10:19] [Worker] Completed task #65  exec=2647.55 ms
+[06:10:19] [Worker] Executing task #64  priority=5
+[06:10:19] [Task] sample_task #56 sleeping 1001 ms
+[06:10:20] [Worker] Completed task #62  exec=886.57 ms
+[06:10:20] [Worker] Executing task #28  priority=4
+[06:10:20] [Task] sample_task #20 sleeping 2397 ms
+[06:10:20] [Worker] Completed task #59  exec=2487.47 ms
+[06:10:20] [Worker] Executing task #29  priority=4
+[06:10:20] [Task] sample_task #21 sleeping 2897 ms
+[06:10:20] [Worker] Completed task #64  exec=1001.68 ms
+[06:10:20] [Worker] Executing task #61  priority=4
+[06:10:20] [Task] sample_task #53 sleeping 2625 ms
+[06:10:21] [Worker] Completed task #67  exec=1773.18 ms
+[06:10:21] [Worker] Executing task #46  priority=3
+[06:10:21] [Task] sample_task #38 sleeping 2828 ms
+[06:10:23] [Worker] Completed task #28  exec=2397.61 ms
+[06:10:23] [Worker] Executing task #50  priority=3
+[06:10:23] [Task] sample_task #42 sleeping 1593 ms
+[06:10:23] [Worker] Completed task #61  exec=2625.79 ms
+[06:10:23] [Worker] Executing task #60  priority=3
+[06:10:23] [Task] sample_task #52 sleeping 1115 ms
+[06:10:23] [Worker] Completed task #29  exec=2897.48 ms
+[06:10:23] [Worker] Executing task #63  priority=3
+[06:10:23] [Task] sample_task #55 sleeping 1531 ms
+[06:10:24] [Worker] Completed task #46  exec=2828.54 ms
+[06:10:24] [Worker] Executing task #32  priority=2
+[06:10:24] [Task] sample_task #24 sleeping 2407 ms
+[06:10:24] [Worker] Completed task #60  exec=1118.37 ms
+[06:10:24] [Worker] Executing task #36  priority=2
+[06:10:24] [Task] sample_task #28 sleeping 2522 ms
+[06:10:24] [Worker] Completed task #50  exec=1593.80 ms
+[06:10:24] [Worker] Executing task #41  priority=2
+[06:10:24] [Task] sample_task #33 sleeping 1759 ms
+[06:10:25] [Worker] Completed task #63  exec=1531.62 ms
+[06:10:25] [Worker] Executing task #55  priority=2
+[06:10:25] [Task] sample_task #47 sleeping 616 ms
+[06:10:25] [Worker] Completed task #55  exec=618.02 ms
+[06:10:25] [Worker] Executing task #66  priority=2
+[06:10:25] [Task] sample_task #58 sleeping 2289 ms
+[06:10:26] [Worker] Completed task #41  exec=1770.93 ms
+[06:10:26] [Worker] Executing task #38  priority=1
+[06:10:26] [Task] sample_task #30 sleeping 1890 ms
+[06:10:26] [Worker] Completed task #32  exec=2407.54 ms
+[06:10:26] [Worker] Executing task #42  priority=1
+[06:10:26] [Task] sample_task #34 sleeping 1000 ms
+[06:10:27] [Worker] Completed task #36  exec=2522.67 ms
+[06:10:27] [Worker] Executing task #52  priority=1
+[06:10:27] [Task] sample_task #44 sleeping 1426 ms
+[06:10:27] [Worker] Completed task #42  exec=1003.12 ms
+[06:10:28] [Worker] Completed task #66  exec=2301.94 ms
+[06:10:28] [Worker] Completed task #38  exec=1893.22 ms
+[06:10:28] [Worker] Completed task #52  exec=1435.17 ms
+[06:11:16] [Scheduler] Added task #68  priority=1
+[06:11:16] [UI] User added task #68  priority=1  work=2454 ms
+[06:11:16] [Worker] Executing task #68  priority=1
+[06:11:16] [Task] sample_task #60 sleeping 2454 ms
+[06:11:16] [Scheduler] Added task #69  priority=6
+[06:11:16] [UI] User added task #69  priority=6  work=1883 ms
+[06:11:16] [Worker] Executing task #69  priority=6
+[06:11:16] [Task] sample_task #61 sleeping 1883 ms
+[06:11:16] [Scheduler] Added task #70  priority=2
+[06:11:16] [UI] User added task #70  priority=2  work=1171 ms
+[06:11:16] [Worker] Executing task #70  priority=2
+[06:11:16] [Task] sample_task #62 sleeping 1171 ms
+[06:11:17] [Scheduler] Added task #71  priority=8
+[06:11:17] [UI] User added task #71  priority=8  work=2068 ms
+[06:11:17] [Worker] Executing task #71  priority=8
+[06:11:17] [Task] sample_task #63 sleeping 2068 ms
+[06:11:17] [Scheduler] Added task #72  priority=3
+[06:11:17] [UI] User added task #72  priority=3  work=1079 ms
+[06:11:17] [Scheduler] Added task #73  priority=2
+[06:11:17] [UI] User added task #73  priority=2  work=2146 ms
+[06:11:17] [Scheduler] Added task #74  priority=6
+[06:11:17] [UI] User added task #74  priority=6  work=2988 ms
+[06:11:17] [Scheduler] Added task #75  priority=4
+[06:11:17] [UI] User added task #75  priority=4  work=876 ms
+[06:11:18] [Worker] Completed task #70  exec=1172.67 ms
+[06:11:18] [Worker] Executing task #74  priority=6
+[06:11:18] [Task] sample_task #66 sleeping 2988 ms
+[06:11:18] [Scheduler] Added task #76  priority=5
+[06:11:18] [UI] User added task #76  priority=5  work=747 ms
+[06:11:18] [Worker] Completed task #69  exec=1884.68 ms
+[06:11:18] [Worker] Executing task #76  priority=5
+[06:11:18] [Task] sample_task #68 sleeping 747 ms
+[06:11:19] [Worker] Completed task #68  exec=2455.77 ms
+[06:11:19] [Worker] Executing task #75  priority=4
+[06:11:19] [Task] sample_task #67 sleeping 876 ms
+[06:11:19] [Worker] Completed task #71  exec=2070.71 ms
+[06:11:19] [Worker] Executing task #72  priority=3
+[06:11:19] [Task] sample_task #64 sleeping 1079 ms
+[06:11:19] [Worker] Completed task #76  exec=748.80 ms
+[06:11:19] [Worker] Executing task #73  priority=2
+[06:11:19] [Task] sample_task #65 sleeping 2146 ms
+[06:11:19] [Worker] Completed task #75  exec=877.73 ms
+[06:11:20] [Worker] Completed task #72  exec=1081.07 ms
+[06:11:21] [Worker] Completed task #74  exec=2989.94 ms
+[06:11:21] [Worker] Completed task #73  exec=2146.81 ms
+[06:11:34] [UI] Thread exiting
+[06:11:34] [Main] UI thread joined, initiating shutdown
+[06:11:34] [Scheduler] Shutdown initiated
+[06:11:34] [Worker] Thread exiting (tid=140616910239296)
+[06:11:34] [Worker] Thread exiting (tid=140616901846592)
+[06:11:34] [Worker] Thread exiting (tid=140616918632000)
+[06:11:34] [Worker] Thread exiting (tid=140616893453888)
+[06:11:34] [Scheduler] Shutdown complete. Completed=76
+[06:11:34] [Main] Exiting cleanly
